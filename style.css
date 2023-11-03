@@ -1,0 +1,102 @@
+body{
+    font-family: Georgia, helvetica;
+	background:#ffffff;
+}
+
+.card{
+    list-style: none;
+    background:#ffffff;
+    margin: auto;
+
+}
+
+p{ 
+    color:rgb(0, 0, 0);
+    font-family:'Calibri';
+}
+h5{
+    color:black;
+font-family: 'Calibri';
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background:#8d8c8cc4;
+	width: 100%;
+	max-width: 622.3px;
+	margin: 10px auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color:rgb(0, 0, 0);
+	padding: 20px;
+	font-size: 20px;
+	display: block;
+	font-family: 'Calibri';
+}
+
+.menu li{
+	position: relative;
+	display: inline-block;
+	text-align:left;
+}
+
+.menu li a:hover{
+	background:#d3d1d1;
+	transition: all .3s;
+}
+
+
+.submenu{
+	position: absolute;
+	background: #8d8c8cc4;
+	width: 150%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	width: 100%;
+	padding: 8px;
+	font-size: 13px;
+	color: rgb(255, 255, 255);
+	font-family: 'Calibri';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+.submenu1{
+	position: absolute;
+	background: #8d8c8cc4;
+	width: 150%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu1 li a{
+	display: block;
+	width: 100%;
+	padding: 8px;
+	font-size: 13px;
+	color: #fff;
+	font-family: 'Calibri';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu1{
+	visibility: visible;
+	opacity: 1;
+}
+
+
